@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Nunito", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "ui-monospace", "SF Mono", Menlo, Consolas, monospace;
+
+  --color-bg: #eef3fb;
+  --color-bg-warm: #e7eefb;
+  --color-surface: #ffffff;
+  --color-surface-2: #f5f8fd;
+  --color-fg: #1e2a4a;
+  --color-muted: #64748b;
+  --color-subtle: #94a3b8;
+  --color-primary: #1d4fd8;
+  --color-primary-fg: #ffffff;
+  --color-primary-soft: #e7eeff;
+  --color-header: #1e4ed8;
+  --color-nav: #1a43c4;
+  --color-ink: #1e2a4a;
+  --color-border: #e2e8f4;
+  --color-border-strong: #c9d4ea;
+  --color-present: #16a34a;
+  --color-absent: #dc2626;
+  --color-justified: #b45309;
+  --color-late: #ea580c;
+  --color-sep: #1e3a8a;
+  --color-staff: #9a3412;
+  --color-break: #92400e;
+  --color-sep-soft: #e7eeff;
+  --color-break-soft: #fef3c7;
+  --color-staff-soft: #ffedd5;
+  --color-absent-soft: #fee2e2;
+  --color-justified-soft: #fef3c7;
+  --color-late-soft: #ffedd5;
+  --color-report: #6d28d9;
+  --color-rule: #e11d48;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 28px;
+
+  --shadow-card: 0 10px 30px -18px rgba(30, 64, 175, 0.35), 0 1px 0 rgba(30, 42, 74, 0.04);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    min-height: 100dvh;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    font-family: var(--font-display);
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  * {
+    border-color: var(--color-border);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  nav,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+    color: black;
+  }
+  main {
+    padding: 0 !important;
+  }
+}

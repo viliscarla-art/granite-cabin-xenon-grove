@@ -1,0 +1,361 @@
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/11/2026, 7:20:38 AM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/11/2026, 7:21:13 AM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+Error in renderToReadableStream: ReferenceError: parseISO is not defined
+    at file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:155:32
+    at Array.map (<anonymous>)
+    at Home (file:///workspace/.vercel/output/functions/__server.func/_ssr/routes-CbPYR49H.mjs:144:20)
+    at renderWithHooks (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12115:18)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12179:11)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12)
+    at renderNodeDestructive (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12441:235)
+    at finishFunctionComponent (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12131:232)
+    at renderElement (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12181:4)
+    at retryNode (file:///workspace/.vercel/output/functions/__server.func/_libs/@tanstack/react-router+%5B...%5D.mjs:12543:12) { componentStack: [Getter] }
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/11/2026, 7:21:40 AM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 9/11/2026, 7:45:37 AM      │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/
+
+> preview
+> node scripts/with-app-env.mjs vite preview
+
+
+ ╭────────── [Build Info] ─────────────╮
+ │                                     │
+ │  - Build Directory: .vercel/output  │
+ │  - Date: 10/16/2026, 6:23:58 AM     │
+ │  - Nitro Version: 3.0.260610-beta   │
+ │  - Nitro Preset: vercel             │
+ │                                     │
+ ╰─────────────────────────────────────╯
+
+  ➜  Local:   http://127.0.0.1:8081/

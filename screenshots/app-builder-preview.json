@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Lista JTB",
+      "hasCanvas": false,
+      "bodyTextLen": 715,
+      "bodyTextHash": "3e8a70c8c4b41379b08171e0dfea8a27ade00423937faf2b17252b7d3d8d92e9",
+      "bodyTextPrefix": "Jaime Torres Bodet Jardín de Niños · Xochitla, Ver. · Proceso Un",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Lista JTB",
+      "hasCanvas": false,
+      "bodyTextLen": 687,
+      "bodyTextHash": "d968180b7fff6a15fd93f64841d7a99196d685ff0fd29ab3576ec68e665e6aeb",
+      "bodyTextPrefix": "Jaime Torres Bodet Jardín de Niños · Xochitla, Ver. · Proceso Un",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

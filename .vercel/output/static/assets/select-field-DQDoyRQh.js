@@ -1,0 +1,1 @@
+import{M as e,c as t}from"./store-CmuMQa6P.js";var n=e();function r({className:e,children:r,...i}){return(0,n.jsx)(`select`,{className:t(`flex h-11 w-full rounded-md border border-border bg-surface px-3 text-sm text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/35`,e),...i,children:r})}export{r as t};
